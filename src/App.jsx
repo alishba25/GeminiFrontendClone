@@ -8,13 +8,13 @@ import ThemeToggle from './components/ThemeToggle';
 function App() {
   return (
     // App background and theme
-    <div className="min-h-screen bg-cream dark:bg-deep-charcoal text-gray-900 dark:text-white transition-colors">
+    <div className="min-h-screen h-full bg-cream dark:bg-deep-charcoal text-gray-900 dark:text-white transition-colors">
       {/* Fixed theme toggle button in top-right */}
       <div className="fixed top-4 right-4 z-50">
         <ThemeToggle />
       </div>
       {/* Main content area with max width and padding */}
-      <main className="p-4 max-w-6xl mx-auto w-full">
+      <main className="p-4 max-w-6xl mx-auto w-full h-full">
         {/* App routes */}
         <Routes>
           <Route path="/" element={<LandingPage />} />

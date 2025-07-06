@@ -55,9 +55,7 @@ const FunFactBox = ({ fact, loading, error }) => {
       <div
         ref={boxRef}
         className={`relative w-full max-w-md rounded-3xl overflow-hidden bg-gradient-to-r from-mint/80 via-ocean-blue/70 to-emerald/80 dark:from-ocean-blue/80 dark:via-sapphire/70 dark:to-mint/80 p-8 shadow-2xl backdrop-blur-xl border border-mint/40 dark:border-ocean-blue/40 group cursor-pointer transition-all duration-300 ${isOpen ? 'scale-105' : 'hover:scale-105'}`}
-        onClick={() => {
-          if (!loading && !error && fact) setIsOpen(!isOpen);
-        }}
+        onClick={() => setIsOpen(!isOpen)}
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
         onMouseMove={handleMouseMove}

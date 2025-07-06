@@ -1,0 +1,33 @@
+/* index.css: Global styles and Tailwind CSS imports for Country Explorer app */
+
+/* Import Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font imports (if any) */
+/* Example: @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+
+/* Custom CSS variables for theme colors, if needed */
+:root {
+  /* Example: --mint: #a7f3d0; */
+}
+
+/* Custom global styles or overrides */
+body {
+  /* Smooth font rendering and background fallback */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+}
+
+/* Utility class overrides or additions */
+/* Example: .glass { @apply bg-white/30 backdrop-blur-xl rounded-2xl; } */
+
+/* Animations for custom components (if any) */
+@keyframes move-border {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Add any additional custom styles below as needed */ 

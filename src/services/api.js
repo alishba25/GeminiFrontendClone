@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base URLs for country and number facts APIs
 const BASE_COUNTRIES = 'https://restcountries.com/v3.1';
-const BASE_NUMBERS = 'http://numbersapi.com';
+const BASE_NUMBERS = 'https://numbersapi.com';
 
 // Fetch all countries
 export const fetchAllCountries = async () => {

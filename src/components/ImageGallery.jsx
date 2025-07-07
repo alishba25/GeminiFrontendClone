@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // ImageGallery: A simple, plain image carousel with autoplay and navigation
-const ImageGallery = ({ count = 6, autoplayInterval = 3000 }) => {
+const ImageGallery = ({ count = 6, autoplayInterval = 6000 }) => {
   // Generate an array of random image URLs
   const images = Array.from({ length: count }, (_, i) => `https://picsum.photos/seed/${Math.random() * 1000}/800/500`);
 

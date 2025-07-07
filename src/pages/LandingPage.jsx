@@ -51,6 +51,12 @@ const LandingPage = () => {
       }
     >
       <div className="flex flex-col items-center justify-start h-full w-full mt-8">
+        {/* Show intro text above search bar only in loader state */}
+        {isLoading && (
+          <div className="mb-4 text-2xl font-semibold text-center text-gray-800 dark:text-white" /* Above search bar */>
+            Ready to explore?
+          </div>
+        )}
         <div className="w-full max-w-xl">
           <SearchBar
             value={query}
@@ -62,6 +68,12 @@ const LandingPage = () => {
             suggestions={suggestions}
           />
         </div>
+        {/* Show subtext below search bar only in loader state */}
+        {isLoading && (
+          <div className="mt-4 text-lg text-center text-gray-600 dark:text-gray-300 max-w-xl" /* Below search bar */>
+            Search and discover detailed information about the countries around the world!
+          </div>
+        )}
         {isLoading && (
           <div className="mt-6 flex items-center justify-center w-full">
             <Loader />

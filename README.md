@@ -24,7 +24,7 @@ A modern, visually rich Gemini chatbot clone built with React, Tailwind CSS, Fra
 
 ### 1. Clone the repository
 ```sh
-git clone <your-repo-url>
+git clone <https://github.com/alishba25/GeminiFrontendClone>
 cd <your-repo-folder>
 ```
 
@@ -75,6 +75,7 @@ src/
 
 ### Form Validation
 - All forms use [zod](https://zod.dev/) schemas and [react-hook-form](https://react-hook-form.com/) for robust, declarative validation. Errors are shown inline and all fields are validated before submission.
+- **Demo Note:** The OTP code is always `123456` for testing and demo purposes.
 
 ### Accessibility & UX
 - All interactive elements are keyboard-accessible and have ARIA labels.
@@ -90,14 +91,28 @@ src/
 
 ## Screenshots
 
-> **Tip:** To add screenshots:
+Authentication (Light Mode):
+![Authentication Light](screenshots/auth-light.png)
+
+Dashboard (Light Mode):
+![Dashboard Light](screenshots/dashboard-light.png)
+
+Dashboard (Dark Mode):
+![Dashboard Dark](screenshots/dashboard-dark.png)
+
+Chatroom (Dark Mode):
+![Chatroom Dark](screenshots/chatroom-dark.png)
+
+Chatroom (Light Mode):
+![Chatroom Light](screenshots/chatroom-light.png)
+
+> **Tip:** To add or update screenshots:
 > 1. Use the Windows Snipping Tool (`Win + Shift + S`) or [ShareX](https://getsharex.com/) to capture your app.
 > 2. Save images in a `screenshots/` folder in your repo.
-> 3. Reference them in this section:
+> 3. Reference them in this section using Markdown:
 >
 > ```md
-> ![Dashboard](screenshots/dashboard.png)
-> ![Chatroom](screenshots/chatroom.png)
+> ![Description](screenshots/your-image.png)
 > ```
 
 ---

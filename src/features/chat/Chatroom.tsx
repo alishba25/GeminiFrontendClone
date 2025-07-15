@@ -186,7 +186,7 @@ const Chatroom: React.FC = () => {
       </div>
       {/* Main Chat Container */}
       <div className="flex flex-col h-[94vh] max-h-[900px] w-full max-w-4xl mx-auto bg-gradient-to-br from-lemon via-mint to-white dark:from-dark-ebony dark:via-dark-mulberry dark:to-dark-rose border border-mint dark:border-dark-tan rounded-3xl shadow-2xl overflow-hidden relative z-20">
-        <h1 className="text-3xl font-extrabold text-mint dark:text-dark-tan mb-2 px-6 pt-6 text-center">Chatroom</h1>
+        <h1 className="text-3xl font-extrabold text-white dark:text-dark-tan mb-2 px-6 pt-6 text-center">Chatroom</h1>
         <div className="mb-4 border-b border-mint dark:border-dark-tan mx-6" />
         {/* Header: AI avatar, title, back button */}
         <div className="flex items-center gap-3 px-6 py-3 border-b border-gray-100 dark:border-dark-tan bg-white/80 dark:bg-dark-cocoa/80 backdrop-blur-md shadow-sm z-10">

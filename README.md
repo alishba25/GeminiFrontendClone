@@ -106,15 +106,6 @@ Chatroom (Dark Mode):
 Chatroom (Light Mode):
 ![Chatroom Light](screenshots/chatroom-light.png)
 
-> **Tip:** To add or update screenshots:
-> 1. Use the Windows Snipping Tool (`Win + Shift + S`) or [ShareX](https://getsharex.com/) to capture your app.
-> 2. Save images in a `screenshots/` folder in your repo.
-> 3. Reference them in this section using Markdown:
->
-> ```md
-> ![Description](screenshots/your-image.png)
-> ```
-
 ---
 
 ## Additional Notes

@@ -8,10 +8,11 @@ module.exports = {
     extend: {
       colors: {
         // Light theme colors
-        'mint': '#98D8C8',
-        'teal': '#14B8A6',
-        'emerald': '#10B981',
-        'cream': '#F5F5DC',
+        'mint': '#4df4da', // new mint
+        'aqua': '#3bded8', // new aqua
+        'lemon': '#fff6a1', // new lemon
+        'cream': '#fff6a1', // alias for lemon
+        'white': '#ffffff',
         
         // Dark theme colors
         'deep-charcoal': '#0B0F1A',
@@ -23,6 +24,11 @@ module.exports = {
         'emerald-dark': '#047857',
         'dusty-peach': '#FFB6A3',
         'deep-plum': '#2C1B47',
+        'dark-mulberry': '#5c2a36',
+        'dark-tan': '#c19a6b',
+        'dark-rose': '#6e2e3b',
+        'dark-cocoa': '#8b5c42',
+        'dark-ebony': '#381819',
       },
       animation: {
         'fade-in': 'fadeIn 0.8s ease-out forwards',

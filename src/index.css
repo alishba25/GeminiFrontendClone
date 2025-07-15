@@ -1,39 +1,32 @@
-/* index.css: Global styles and Tailwind CSS imports for Country Explorer app */
+/* index.css
+   Main CSS entry: imports Tailwind layers and defines custom animations for gradients
+*/
 
-/* Import Tailwind base, components, and utilities */
+/* Import Tailwind's base styles (resets, typography, etc.) */
 @tailwind base;
+/* Import Tailwind's component classes (buttons, forms, etc.) */
 @tailwind components;
+/* Import Tailwind's utility classes (margin, padding, color, etc.) */
 @tailwind utilities;
 
-/* Ensure full height for scrollable containers */
-html, body, #root {
-  height: 100%;
-  min-height: 100%;
+/* --- Custom Keyframes for Animated Gradients --- */
+/* Moves gradient background down and up */
+@keyframes gradient-move {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(30px); }
+}
+/* Moves gradient background up and down (opposite direction) */
+@keyframes gradient-move2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
 }
 
-/* Custom font imports (if any) */
-/* Example: @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
-
-/* Custom CSS variables for theme colors, if needed */
-:root {
-  /* Example: --mint: #a7f3d0; */
+/* --- Animation Utility Classes --- */
+/* Applies the gradient-move animation */
+.animate-gradient-move {
+  animation: gradient-move 6s ease-in-out infinite;
 }
-
-/* Custom global styles or overrides */
-body {
-  /* Smooth font rendering and background fallback */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f8fafc;
+/* Applies the gradient-move2 animation */
+.animate-gradient-move2 {
+  animation: gradient-move2 7s ease-in-out infinite;
 }
-
-/* Utility class overrides or additions */
-/* Example: .glass { @apply bg-white/30 backdrop-blur-xl rounded-2xl; } */
-
-/* Animations for custom components (if any) */
-@keyframes move-border {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-}
-
-/* Add any additional custom styles below as needed */ 

@@ -2,7 +2,7 @@
 
 A modern, visually rich Gemini chatbot clone built with React, Tailwind CSS, Framer Motion, and Zustand. Features a professional chat UI, animated chatrooms dashboard, OTP-based authentication, dark/light mode, infinite scroll, image upload, and more.
 
-**Live Demo:** [Add your live link here]
+**Live Demo:** [https://geminifrontendclone.netlify.app/](https://geminifrontendclone.netlify.app/)
 
 ---
 

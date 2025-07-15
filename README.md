@@ -24,7 +24,7 @@ A modern, visually rich Gemini chatbot clone built with React, Tailwind CSS, Fra
 
 ### 1. Clone the repository
 ```sh
-git clone <https://github.com/alishba25/GeminiFrontendClone>
+git clone https://github.com/alishba25/GeminiFrontendClone
 cd <your-repo-folder>
 ```
 
